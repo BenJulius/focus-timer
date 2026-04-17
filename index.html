@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Focus Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+    <div id="setup-screen" class="screen">
+        <h2>FOCUS TIMER</h2>
+        
+        <label>FOCUS DURATION (HH:MM:SS):</label>
+        <div class="time-inputs">
+            <input type="number" id="hours-input" value="0" min="0" max="23" placeholder="HH">
+            <span>:</span>
+            <input type="number" id="minutes-input" value="25" min="0" max="59" placeholder="MM">
+            <span>:</span>
+            <input type="number" id="seconds-input" value="0" min="0" max="59" placeholder="SS">
+        </div>
+        
+        <label>SELECT PAYOUTS:</label>
+        <div class="checkbox-grid">
+            <label class="check-btn"><input type="checkbox" value="WALK" checked> WALK</label>
+            <label class="check-btn"><input type="checkbox" value="SNACK" checked> SNACK</label>
+            <label class="check-btn"><input type="checkbox" value="TV EPISODE"> TV EPISODE</label>
+            <label class="check-btn"><input type="checkbox" value="SOCIAL MEDIA"> SOCIAL MEDIA</label>
+            <label class="check-btn"><input type="checkbox" value="STRETCH"> STRETCH</label>
+            <label class="check-btn"><input type="checkbox" value="HYDRATE"> HYDRATE</label>
+        </div>
+        
+        <label>CUSTOM PAYOUT:</label>
+        <div class="custom-group">
+            <input type="checkbox" id="custom-check">
+            <div class="emoji-wrapper">
+                <input type="text" id="custom-emoji" value="✨" readonly>
+                <div id="emoji-picker" class="hidden">
+                    <span>✨</span><span>🔥</span><span>🎉</span><span>⭐</span>
+                    <span>💎</span><span>🏆</span><span>🚀</span><span>🎮</span>
+                    <span>🍕</span><span>🍔</span><span>🍺</span><span>☕</span>
+                    <span>🎸</span><span>🎨</span><span>📚</span><span>💤</span>
+                </div>
+            </div>
+            <input type="text" id="custom-input" maxlength="15" placeholder="ENTER REWARD">
+        </div>
+        
+        <button id="save-btn">INITIALIZE</button>
+    </div>
+
+    <div id="timer-screen" class="screen hidden">
+        <div class="display">
+            <h1 id="time-display">25:00</h1>
+            <div class="controls">
+                <button id="start-btn">START</button>
+                <button id="pause-btn">PAUSE</button>
+                <button id="restart-btn">RESTART</button>
+                <button id="setup-btn">SETUP</button>
+            </div>
+        </div>
+        <div class="slot-machine-ui">
+            <div class="reels-container">
+                <div class="reel" id="reel1">⚡</div>
+                <div class="reel" id="reel2">⚡</div>
+                <div class="reel" id="reel3">⚡</div>
+            </div>
+            <div id="reward-display">READY</div>
+        </div>
+    </div>
+</div>
+<script src="timer.js"></script>
+<script src="reels.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
