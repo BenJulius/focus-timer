@@ -8,20 +8,31 @@ A mobile-responsive timer that uses a slot machine mechanic to determine break a
 
 | Machine Setup | Active Timer |
 |:---:|:---:|
-| <img src="setup_screen.jpg" width="300" alt="Focus Timer Setup"> | <img src="timer_active.jpg" width="300" alt="Active Countdown"> |
+| <img src="images/setup_screen.jpg" width="300" alt="Focus Timer Setup"> | <img src="images/timer_active.jpg" width="300" alt="Active Countdown"> |
 
 | Spin Animation | Reward Payout |
 |:---:|:---:|
-| <img src="rolling_animation.jpg" width="300" alt="Slot Machine Rolling"> | <img src="reward_payout.jpg" width="300" alt="Reward Result"> |
+| <img src="images/rolling_animation.jpg" width="300" alt="Slot Machine Rolling"> | <img src="images/reward_payout.jpg" width="300" alt="Reward Result"> |
 
 
 ## Tech Stack
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/>
-</p>
+<div style="display: flex; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/>
+    <p>JavaScript</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" height="40"/>
+    <p>HTML5</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" height="40"/>
+    <p>CSS3</p>
+  </div>
+</div>
 
 ## Features
 
