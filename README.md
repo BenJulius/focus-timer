@@ -8,7 +8,12 @@ A mobile-responsive timer that uses a slot machine mechanic to determine break a
 
 | Machine Setup | Active Timer |
 |:---:|:---:|
-| <img src="setup-screenshot.png" width="250" alt="Setup Screen"> | <img src="timer-screenshot.png" width="250" alt="Timer Screen"> |
+| <img src="setup_screen.jpg" width="300" alt="Focus Timer Setup"> | <img src="timer_active.jpg" width="300" alt="Active Countdown"> |
+
+| Spin Animation | Reward Payout |
+|:---:|:---:|
+| <img src="rolling_animation.jpg" width="300" alt="Slot Machine Rolling"> | <img src="reward_payout.jpg" width="300" alt="Reward Result"> |
+
 
 ## Tech Stack
 
